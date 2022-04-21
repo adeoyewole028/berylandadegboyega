@@ -1,0 +1,66 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  background-color: white;
+}
+
+.logo {
+  width: 250px;
+}
+.navbar {
+  display: flex;
+}
+.nav-list {
+  display: flex;
+}
+li {
+  margin-left: 20px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading-input {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit {
+  background-color: yellow;
+  font-weight: bolder;
+}
+
+.price {
+  display: flex;
+}
+
+.price > div {
+  border: 1px solid black;
+  margin: 10px;
+  text-align: center;
+}
+
+.price > div h1 {
+  background-color: gray;
+}
+
+@media screen and (max-width: 320px) {
+  body {
+    font-size: 20px;
+  }
+}
